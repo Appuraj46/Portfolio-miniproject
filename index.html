@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appuraj-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Appuraj Gs</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>                
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="ph-nav">
+        <div class="logo">Appuraj Gs</div>
+        <div class="ph-menu">
+            <div class="phmenu-icon" onclick="phMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="phmenu-links">
+                <li><a href="#about" onclick="phMenu()">About</a></li>
+                <li><a href="#experience" onclick="phMenu()">Experience</a></li>  
+                <li><a href="#contact"  onclick="phMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./Assets/profile-pic.png" alt="Appuraj's Profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Appuraj Gowda GS</h1>
+            <p class="section__text__p2">Student</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./Assets/My Resume.pdf')">Resumne</button>
+                <button class="btn btn-color-1" onclick="location.href ='./#contact' ">Contact</button>
+            </div>
+            <div id="socials-container">
+                <img src="./Assets/linkedin.png" alt="My linkedin profile" class="icon" onclick="location.href ='https://www.linkedin.com/in/appuraj-gs' ">
+                <img src="./Assets/github.png" alt="My Github profile" class="icon" onclick="location.href ='https://github.com/Appuraj46' ">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./Assets/about-pic.png" alt="Profile picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                
+                <div class="text-container">
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;Hello! My name is Appuraj Gowda Gs, and I’m currently pursuing my Bachelor's degree in Computer Science and Engineering at Shree Devi Institute of Technology in Mangalore. Originally hailing from the picturesque town of Madikeri, I've embarked on this academic journey with great enthusiasm. Currently, I'm in my 3rd year, 5th semester, and every day in this field brings new challenges and learning opportunities that I eagerly embrace.
+
+                        When I'm not immersed in coding or solving complex algorithms, I love to indulge in some of my favorite pastimes—typing, coding, and listening to music. These activities not only provide a creative outlet but also keep me grounded and focused. My friends and colleagues often describe me as hardworking, always pushing myself to achieve more and better. Whether it’s a project deadline or a personal goal, I believe in giving my best effort and continuously improving myself.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./Assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href = './#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img style="height: 4rem;" src="./Assets/experience.png" alt="Experience icon" class="icon">
+                    <h3 style="font-size: 1.6rem;">Education</h3>
+                    <p><strong><b style="font-size: 1.3rem; color: rgb(24, 24, 24);">Pursuing, BE CSE</b></strong><br>Shree Devi Institute of Technology, Mangalore</p><br>
+                    <p><strong><b style="font-size: 1.3rem; color: rgb(20, 20, 20);">PCMB</b></strong><br>St Michael's PU College, Madikeri</p>
+                </div>
+                <div class="details-container">
+                    <img style="height: 4rem;" src="https://cdn0.iconfinder.com/data/icons/project-management-2-12/65/108-1024.png" alt="education icon" class="icon">
+                    <h3 style="font-size: 1.6rem;">Skills</h3>
+                    <p><img src="https://images.vexels.com/media/users/3/166383/isolated/preview/6024bc5746d7436c727825dc4fc23c22-html-programming-language-icon-by-vexels.png" alt="html icon" class="skill-icon"><img src="https://th.bing.com/th/id/OIP.pXrq6xy_Gxua3qTfGZLXqwHaKc?rs=1&pid=ImgDetMain" alt="css icon" class="skill-icon"><img src="https://cdn.iconscout.com/icon/free/png-512/javascript-2038874-1720087.png" alt="js icon" class="skill-icon"><img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/c_original_logo_icon_146611.png" alt="c icon" class="skill-icon"><img src="https://cdn.freebiesupply.com/logos/large/2x/python-5-logo-png-transparent.png" alt="python icon" class="skill-icon"><img src="https://th.bing.com/th/id/R.c3ba82a536fe4983dad4c06b578dcd5d?rik=F2s%2bS%2fWmkU2dew&riu=http%3a%2f%2fassets.stickpng.com%2fimages%2f584830f5cef1014c0b5e4aa1.png&ehk=nr30%2foGRF6ObcWbuK6%2b%2bzHxe3w8Jb0cawQ6zBp1sH3E%3d&risl=&pid=ImgRaw&r=0" alt="React icon" class="skill-icon"><img src="https://pngimg.com/uploads/php/php_PNG43.png" alt="php icon" class="skill-icon"><img src="https://pngimg.com/d/mysql_PNG23.png" alt="mysql icon" class="skill-icon"><img src="https://vectorseek.com/wp-content/uploads/2023/07/Figma-Logo-Png-Vector.svg-.png" alt="Figma icon" class="skill-icon"><img src="https://cdn.freebiesupply.com/logos/large/2x/git-icon-logo-png-transparent.png" alt="Git icon" class="skill-icon"><img src="https://pngimg.com/d/github_PNG40.png" alt="Github icon" class="skill-icon"></p>
+                </div>
+            </div>
+        </div>
+        <img src="./Assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href = './#contact'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./Assets/email.png" alt="email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:appurajgs2005@gmail.com">appurajgs2005@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./Assets/linkedin.png" alt="Linkedin icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/appuraj-gs">Linkedin</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
